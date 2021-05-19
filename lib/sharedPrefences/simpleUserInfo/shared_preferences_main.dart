@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 // if you want use sharedPreferences you must be add this dependency to pubspec.yaml
 // dependencies:
 // flutter:
+//    sdk: flutter
 // shared_preferences:
 
 class SharedPreferencesScreen extends StatelessWidget {
