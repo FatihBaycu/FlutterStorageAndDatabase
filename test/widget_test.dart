@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:flutter_storage_and_database/sharedPrefences/shared_preferences_main.dart';
+import 'package:flutter_storage_and_database/sharedPrefences/simpleUserInfo/shared_preferences_main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

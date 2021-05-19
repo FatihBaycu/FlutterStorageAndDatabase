@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_storage_and_database/sharedPrefences/page_a.dart';
+import 'package:flutter_storage_and_database/sharedPrefences/simpleUserInfo/page_a.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // if you want use sharedPreferences you must be add this dependency to pubspec.yaml
