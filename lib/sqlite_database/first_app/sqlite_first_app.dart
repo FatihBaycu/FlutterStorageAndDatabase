@@ -69,6 +69,16 @@ class _SqLiteFirstApp extends State<MySqLiteFirstApp> {
       print("person age:" + k.person_age.toString());
     }
   }
+  Future<void> getTwoRandom() async {
+     var liste = await PersonsDao.getTwoRandom();
+
+    for (Persons k in liste) {
+      print("************");
+      print("person id:" + k.person_id.toString());
+      print("person name:" + k.person_name);
+      print("person age:" + k.person_age.toString());
+    }
+  }
 
   @override
   initState() {
@@ -84,7 +94,8 @@ class _SqLiteFirstApp extends State<MySqLiteFirstApp> {
     //updatePerson(person);
     //checkExist(person);
     //getById(7);
-    searchPerson("zeynep");
+    //searchPerson("zeynep");
+    getTwoRandom();
     //showPersons();
   }
 

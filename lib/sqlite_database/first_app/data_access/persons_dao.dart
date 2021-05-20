@@ -71,5 +71,17 @@ class PersonsDao {
   }
 
 
+  static Future<List<Persons>> getTwoRandom() async {
+    var db = await DbHelper.databaseAccess();
 
+    List<Map<String, dynamic>> maps =
+    await db.rawQuery("SELECT * FROM persons ORDER BY RANDOM() LIMIT 2");
+
+    return List.generate(maps.length, (index) {
+      var column = maps[index];
+
+      return Persons(
+          column["person_id"], column["person_name"], column["person_age"]);
+    });
+  }
 }
