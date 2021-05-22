@@ -1,8 +1,30 @@
 # flutter_storage_and_database
 
-A new Flutter application.
+**If you want run any screens in this repo go to main.dart and change runApp(SCREEN-CLASS-NAME);**
 
-## Getting Started
+Storage and sqLite examples are available in this flutter project.
+
+    CRUD process
+      Create (Add)
+      Read (Show)
+      Update
+      Delete
+
+## In this project
+## File Storage
+      File Storage CRUD
+## Shared Preferences
+      Login Screen
+      Simple User
+      Counter Screen
+## SQLite Database
+      Film Console
+      Film UI
+      Contacts
+      Dictionary
+      First Console App CRUD
+      Flag Quiz
+      Grade App
 
 This project is a starting point for a Flutter application.
 
