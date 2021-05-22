@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
-class ContactsDbHelper {
+class ContactDbHelper {
   static String databaseName = "contacts.sqlite";
 
   static Future<Database> accessDatabase() async {
