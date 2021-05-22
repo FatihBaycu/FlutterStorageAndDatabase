@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_storage_and_database/sqlite_database/film_app/data_access/film_dao.dart';
-import 'package:flutter_storage_and_database/sqlite_database/film_app/models/film.dart';
-import 'package:flutter_storage_and_database/sqlite_database/film_app/models/film_detail.dart';
+import 'package:flutter_storage_and_database/sqlite_database/film_console_app/data_access/film_dao.dart';
+import 'package:flutter_storage_and_database/sqlite_database/film_console_app/models/film.dart';
+import 'package:flutter_storage_and_database/sqlite_database/film_console_app/models/film_detail.dart';
 
 class SqLiteFilmAppScreen extends StatelessWidget {
 

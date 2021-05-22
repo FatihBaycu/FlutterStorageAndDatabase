@@ -1,8 +1,8 @@
-import 'package:flutter_storage_and_database/sqlite_database/film_app/data_access/db_helper.dart';
-import 'package:flutter_storage_and_database/sqlite_database/film_app/models/category.dart';
-import 'package:flutter_storage_and_database/sqlite_database/film_app/models/director.dart';
-import 'package:flutter_storage_and_database/sqlite_database/film_app/models/film.dart';
-import 'package:flutter_storage_and_database/sqlite_database/film_app/models/film_detail.dart';
+import 'package:flutter_storage_and_database/sqlite_database/film_console_app/data_access/db_helper.dart';
+import 'package:flutter_storage_and_database/sqlite_database/film_console_app/models/category.dart';
+import 'package:flutter_storage_and_database/sqlite_database/film_console_app/models/director.dart';
+import 'package:flutter_storage_and_database/sqlite_database/film_console_app/models/film.dart';
+import 'package:flutter_storage_and_database/sqlite_database/film_console_app/models/film_detail.dart';
 
 class FilmDao{
 

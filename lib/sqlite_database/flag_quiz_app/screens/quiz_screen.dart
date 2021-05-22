@@ -1,6 +1,4 @@
 import 'dart:collection';
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_storage_and_database/sqlite_database/flag_quiz_app/data_access/flag_dao.dart';
 import 'package:flutter_storage_and_database/sqlite_database/flag_quiz_app/models/flag.dart';
@@ -16,8 +14,10 @@ class FlagQuizScreen extends StatefulWidget {
 class _FlagQuizScreenState extends State<FlagQuizScreen> {
 
     var quesitons=<Flag>[];
+
     var wrongOptions=<Flag>[];
     Flag trueQuesiton;
+
     var allOptions=HashSet<Flag>();
 
     int questionCounter=0;

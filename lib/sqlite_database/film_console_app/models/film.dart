@@ -1,5 +1,5 @@
-import 'package:flutter_storage_and_database/sqlite_database/film_app/models/category.dart';
-import 'package:flutter_storage_and_database/sqlite_database/film_app/models/director.dart';
+import 'package:flutter_storage_and_database/sqlite_database/film_console_app/models/category.dart';
+import 'package:flutter_storage_and_database/sqlite_database/film_console_app/models/director.dart';
 
 class Film{
  int film_id;
